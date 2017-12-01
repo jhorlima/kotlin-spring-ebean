@@ -1,0 +1,1 @@
+mvn -Dpackage=br.uema.estudo.entity -Dlang=kt ebean:generate-querybeans
