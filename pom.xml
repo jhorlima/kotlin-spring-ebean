@@ -94,6 +94,12 @@
             <version>10.1.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.ebean.tools</groupId>
+            <artifactId>finder-generator</artifactId>
+            <version>4.2.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -122,19 +128,19 @@
                 </dependencies>
             </plugin>
 
-            <plugin>
-                <groupId>io.repaint.maven</groupId>
-                <artifactId>tiles-maven-plugin</artifactId>
-                <version>2.10</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <tiles>
-                        <!--<tile>org.avaje.tile:java-compile:1.1</tile>-->
-                        <tile>io.ebean.tile:kotlin-kapt:1.1</tile>
-                        <tile>io.ebean.tile:enhancement:3.1</tile>
-                    </tiles>
-                </configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>io.repaint.maven</groupId>-->
+                <!--<artifactId>tiles-maven-plugin</artifactId>-->
+                <!--<version>2.10</version>-->
+                <!--<extensions>true</extensions>-->
+                <!--<configuration>-->
+                    <!--<tiles>-->
+                        <!--&lt;!&ndash;<tile>org.avaje.tile:java-compile:1.1</tile>&ndash;&gt;-->
+                        <!--<tile>io.ebean.tile:kotlin-kapt:1.1</tile>-->
+                        <!--<tile>io.ebean.tile:enhancement:3.1</tile>-->
+                    <!--</tiles>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
 
         </plugins>
 
